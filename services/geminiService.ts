@@ -62,12 +62,12 @@ export const fetchRulers = async (): Promise<Ruler[]> => {
 const generateImage = async (prompt: string): Promise<string> => {
     try {
         const response = await ai.models.generateImages({
-            model: 'imagen-3.0-generate-002',
-            prompt: `Photorealistic portrait, historical painting style. ${prompt}`,
+            model: 'stable-diffusion',
+            prompt: `A highly detailed and photorealistic portrait of a historical figure: ${prompt}`,
             config: {
-                numberOfImages: 1,
-                outputMimeType: 'image/jpeg',
-                aspectRatio: '3:4',
+                num_images: 1,
+                output_format: 'jpeg',
+                aspect_ratio: '3:4',
             },
         });
 
