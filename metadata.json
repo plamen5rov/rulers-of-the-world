@@ -1,0 +1,5 @@
+{
+  "name": "Rulers of The World",
+  "description": "A visual quiz game where you guess the correct portrait of a historical ruler from a selection of AI-generated images. Test your knowledge across 10 rounds and aim for a high score!",
+  "requestFramePermissions": []
+}

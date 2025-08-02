@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+*.venv
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+.history/
+
+# Linux/macOS
+.DS_Store
+*.swp
+*.swo
+*~
+.cache/
+*.bak
+
+# Logs
+*.log
+
+# Test/coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Node.js (if present)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Miscellaneous
+*.sqlite3
+*.db
+*.tar.gz
+*.zip
+*.rar
+
+# Ignore secrets
+*.env.local
